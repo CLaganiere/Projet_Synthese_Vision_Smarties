@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{2c6ea317-689a-45ba-b8ca-cc13a693187f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{5098a9d6-5d13-4bb8-9a47-224004ece955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Color">
+      <UniqueIdentifier>{33f690e4-932b-4923-bdbd-9b620890ac79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Color">
+      <UniqueIdentifier>{1ac58bd7-7ac8-48e7-a162-611e1d590424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process">
+      <UniqueIdentifier>{04c3c399-8659-45cd-aea9-3bfcc1e57476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process\UnyProc">
+      <UniqueIdentifier>{76a3d7e5-88b0-41f2-9393-5356e2ce6cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process\MultiProc">
+      <UniqueIdentifier>{97cd1488-66eb-408a-a1ff-ccabfa983c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process\UnyProc\FillingAreas">
+      <UniqueIdentifier>{3ab3eac4-184b-482f-879f-d98efb319972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process\UnyProc\Filter">
+      <UniqueIdentifier>{ed3c2c20-9fe0-46c7-a774-4029175adc63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process\UnyProc\Filter\Convolution">
+      <UniqueIdentifier>{5160f83a-32f8-448e-8edc-b71bb01ce366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process">
+      <UniqueIdentifier>{09397d5e-c9e8-4846-bdbd-d7030065c677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process\UnyProc">
+      <UniqueIdentifier>{24e2d456-7094-4eac-877f-ebb91713fcb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process\MultiProc">
+      <UniqueIdentifier>{f9083edb-87a3-451c-8786-8f836e488743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process\UnyProc\Filter">
+      <UniqueIdentifier>{2207ab52-77a3-46d6-b9c3-4d0aaee854e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process\UnyProc\Filter\Convolution">
+      <UniqueIdentifier>{094432dd-92f3-4516-8a1d-e80e0ec81044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process\UnyProc\ModifColor">
+      <UniqueIdentifier>{f45236eb-461b-4095-be23-5af05a73fd1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process\UnyProc\DescriptorCalculation">
+      <UniqueIdentifier>{221193fb-2598-4120-afe2-9d50e7afd220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InfoBlobs">
+      <UniqueIdentifier>{9372f559-b52e-426d-bb40-699f9f069a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Image">
+      <UniqueIdentifier>{b2b8f0b3-e8d5-4882-866e-5fd12b4e368a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process\UnyProc\ModifColor">
+      <UniqueIdentifier>{752edf43-78fa-4b94-a450-b41eb604d430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FactoryProcess">
+      <UniqueIdentifier>{ffec6456-346e-475e-acce-082dfa94fb9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FactoryProcess">
+      <UniqueIdentifier>{a728709b-3a13-4968-9360-ba4afa5b96c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InfoBlobs">
+      <UniqueIdentifier>{04b7fd10-6b92-4a05-a335-b52331301ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process\UnyProc\FillingAreas">
+      <UniqueIdentifier>{3c91fcde-07b8-400c-a787-831e820ad411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process\UnyProc\DescriptorCalculation">
+      <UniqueIdentifier>{6021c50e-1aba-4461-9bcf-892e4204bc9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{724a5746-a06f-4369-bbbe-97407c2bba84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{1b0c1e51-903f-407b-aa4a-3e6efdb1895a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process\UnyProc\Segmentation">
+      <UniqueIdentifier>{5dff1033-9f68-45c8-bc53-68c064727102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process\UnyProc\Segmentation">
+      <UniqueIdentifier>{995e4dee-9b60-4e8c-b699-c38f1a1372a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QSimpleImageGrabber.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="QSimpleImageViewer.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvolutionGaussian.cpp">
+      <Filter>Source Files\Process\UnyProc\Filter\Convolution</Filter>
+    </ClCompile>
+    <ClCompile Include="Classification.cpp">
+      <Filter>Source Files\Process\UnyProc</Filter>
+    </ClCompile>
+    <ClCompile Include="CalcComplexity.cpp">
+      <Filter>Source Files\Process\UnyProc\DescriptorCalculation</Filter>
+    </ClCompile>
+    <ClCompile Include="CalcArea.cpp">
+      <Filter>Source Files\Process\UnyProc\DescriptorCalculation</Filter>
+    </ClCompile>
+    <ClCompile Include="CalcPerimeter.cpp">
+      <Filter>Source Files\Process\UnyProc\DescriptorCalculation</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeEvaluator.cpp">
+      <Filter>Source Files\Process\UnyProc\DescriptorCalculation</Filter>
+    </ClCompile>
+    <ClCompile Include="Smarthies.cpp">
+      <Filter>Source Files\Process\UnyProc\DescriptorCalculation</Filter>
+    </ClCompile>
+    <ClCompile Include="DescriptorCalculation.cpp">
+      <Filter>Source Files\Process\UnyProc\DescriptorCalculation</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelFilter.cpp">
+      <Filter>Source Files\Process\UnyProc\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessImageEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FillingArea.cpp">
+      <Filter>Source Files\Process\UnyProc\FillingAreas</Filter>
+    </ClCompile>
+    <ClCompile Include="Maximum.cpp">
+      <Filter>Source Files\Process\UnyProc\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Median.cpp">
+      <Filter>Source Files\Process\UnyProc\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeBackImgProc.cpp">
+      <Filter>Source Files\FactoryProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeImgProc.cpp">
+      <Filter>Source Files\FactoryProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="AverageImage.cpp">
+      <Filter>Source Files\Process\MultiProc</Filter>
+    </ClCompile>
+    <ClCompile Include="WebCamGrabber.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GUEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileImageGrabber.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Normalisation.cpp">
+      <Filter>Source Files\Process\UnyProc</Filter>
+    </ClCompile>
+    <ClCompile Include="ARGBFormat.cpp">
+      <Filter>Source Files\Process\UnyProc\ModifColor</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBFormat.cpp">
+      <Filter>Source Files\Process\UnyProc\ModifColor</Filter>
+    </ClCompile>
+    <ClCompile Include="Uniformisation.cpp">
+      <Filter>Source Files\Process\MultiProc</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvolutionUniform.cpp">
+      <Filter>Source Files\Process\UnyProc\Filter\Convolution</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="FileImageSaver.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManager.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoChrome.cpp">
+      <Filter>Source Files\Process\UnyProc</Filter>
+    </ClCompile>
+    <ClCompile Include="QIntervalScrollBar.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="QNIntervalScrollBar.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Labelling.cpp">
+      <Filter>Source Files\Process\UnyProc\FillingAreas</Filter>
+    </ClCompile>
+    <ClCompile Include="BlobsInfo.cpp">
+      <Filter>Source Files\InfoBlobs</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentationDebug.cpp">
+      <Filter>Source Files\Process\UnyProc\Segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentationNormal.cpp">
+      <Filter>Source Files\Process\UnyProc\Segmentation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QSimpleImageGrabber.h">
+      <Filter>Header Files\Camera</Filter>
+    </QtMoc>
+    <QtMoc Include="QSimpleImageViewer.h">
+      <Filter>Header Files\Camera</Filter>
+    </QtMoc>
+    <QtMoc Include="GUEngine.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="WebCamGrabber.h">
+      <Filter>Header Files\Camera</Filter>
+    </QtMoc>
+    <QtMoc Include="FileImageGrabber.h">
+      <Filter>Header Files\Camera</Filter>
+    </QtMoc>
+    <QtMoc Include="ProcessManager.h">
+      <Filter>Header Files\Process</Filter>
+    </QtMoc>
+    <QtMoc Include="FileImageSaver.h">
+      <Filter>Header Files\Camera</Filter>
+    </QtMoc>
+    <QtMoc Include="QIntervalScrollBar.h">
+      <Filter>Header Files\Tools</Filter>
+    </QtMoc>
+    <QtMoc Include="QNIntervalScrollBar.h">
+      <Filter>Header Files\Tools</Filter>
+    </QtMoc>
+    <QtMoc Include="ProcessImageEngine.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ImgDemo.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="ImgDemo.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CalcArea.h">
+      <Filter>Header Files\Process\UnyProc\DescriptorCalculation</Filter>
+    </ClInclude>
+    <ClInclude Include="CalcComplexity.h">
+      <Filter>Header Files\Process\UnyProc\DescriptorCalculation</Filter>
+    </ClInclude>
+    <ClInclude Include="CalcPerimeter.h">
+      <Filter>Header Files\Process\UnyProc\DescriptorCalculation</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="AverageImage.h">
+      <Filter>Header Files\Process\MultiProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Convolution.h">
+      <Filter>Header Files\Process\UnyProc\Filter\Convolution</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvolutionGaussian.h">
+      <Filter>Header Files\Process\UnyProc\Filter\Convolution</Filter>
+    </ClInclude>
+    <ClInclude Include="DescriptorCalculation.h">
+      <Filter>Header Files\Process\UnyProc\DescriptorCalculation</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelFilter.h">
+      <Filter>Header Files\Process\UnyProc\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifColor.h">
+      <Filter>Header Files\Process\UnyProc\ModifColor</Filter>
+    </ClInclude>
+    <ClInclude Include="FillingArea.h">
+      <Filter>Header Files\Process\UnyProc\FillingAreas</Filter>
+    </ClInclude>
+    <ClInclude Include="Maximum.h">
+      <Filter>Header Files\Process\UnyProc\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Median.h">
+      <Filter>Header Files\Process\UnyProc\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryProcess.h">
+      <Filter>Header Files\FactoryProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeImgProc.h">
+      <Filter>Header Files\FactoryProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeBackImgProc.h">
+      <Filter>Header Files\FactoryProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeEvaluator.h">
+      <Filter>Header Files\Process\UnyProc\DescriptorCalculation</Filter>
+    </ClInclude>
+    <ClInclude Include="Smarthies.h">
+      <Filter>Header Files\Process\UnyProc\DescriptorCalculation</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiProc.h">
+      <Filter>Header Files\Process\MultiProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Header Files\Process\UnyProc\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Normalisation.h">
+      <Filter>Header Files\Process\UnyProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Img_t.h">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ARGBFormat.h">
+      <Filter>Header Files\Process\UnyProc\ModifColor</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBFormat.h">
+      <Filter>Header Files\Process\UnyProc\ModifColor</Filter>
+    </ClInclude>
+    <ClInclude Include="UnyProc.h">
+      <Filter>Header Files\Process\UnyProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Uniformisation.h">
+      <Filter>Header Files\Process\MultiProc</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvolutionUniform.h">
+      <Filter>Header Files\Process\UnyProc\Filter\Convolution</Filter>
+    </ClInclude>
+    <ClInclude Include="EmbeddedProc.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Classification.h">
+      <Filter>Header Files\Process\UnyProc</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoChrome.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="BlobExtractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Labelling.h">
+      <Filter>Header Files\Process\UnyProc\FillingAreas</Filter>
+    </ClInclude>
+    <ClInclude Include="BlobsInfo.h">
+      <Filter>Header Files\InfoBlobs</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentationDebug.h">
+      <Filter>Header Files\Process\UnyProc\Segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentationNormal.h">
+      <Filter>Header Files\Process\UnyProc\Segmentation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
